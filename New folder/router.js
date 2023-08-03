@@ -8,7 +8,7 @@ router.get("/",(req,res)=>{
 })
 
 router.get("/chirag",(req,res)=>{
-    res.send("hello from chirag")
+    res.send("<h1>hello from chirag</h1>")
 })
 
 router.get("/hello",(req,res)=>{
