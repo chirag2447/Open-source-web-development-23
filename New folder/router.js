@@ -15,7 +15,7 @@ router.get("/panchal",(req,res)=>{
 })
 
 router.get("/hello",(req,res)=>{
-    res.send("hello world")   
+    res.send("<h1>hello world</h1>")   
 })
 
 router.get("/h*",(req,res)=>{})
