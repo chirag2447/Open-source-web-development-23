@@ -11,6 +11,10 @@ router.get("/chirag",(req,res)=>{
     res.send("<h1>hello from chirag</h1>")
 })
 
+router.get("/panchal",(req,res)=>{
+    res.send("hello from panchal")
+})
+
 router.get("/hello",(req,res)=>{
     res.send("hello world")   
 })
