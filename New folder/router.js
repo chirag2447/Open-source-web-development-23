@@ -1,4 +1,3 @@
-router.js
 const router = require("express").Router()
 
 
@@ -12,7 +11,7 @@ router.get("/chirag",(req,res)=>{
 })
 
 router.get("/panchal",(req,res)=>{
-    res.send("hello from panchal")
+    res.send("<h1>hello from panchal</h1>")
 })
 
 router.get("/hello",(req,res)=>{
