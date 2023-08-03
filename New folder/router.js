@@ -7,6 +7,10 @@ router.get("/",(req,res)=>{
     res.send("/ url called")
 })
 
+router.get("/chirag",(req,res)=>{
+    res.send("hello from chirag")
+})
+
 router.get("/hello",(req,res)=>{
     res.send("hello world")   
 })
